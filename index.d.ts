@@ -20,4 +20,5 @@ export function compile(mdx: string, userOpts?: Opts | undefined | null): string
 export class Processor {
   opts: Opts
   constructor(opts: Opts)
+  process(mdx: string): string
 }

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { compile, JsxRuntime } from '../index.js';
+import { compile, JsxRuntime, Processor } from '../index.js';
 
 test('compile', t => {
   const result = compile(`# Hello`);
@@ -20,3 +20,9 @@ test('importSource', t => {
   });
   t.true(result.includes('preact'));
 });
+
+test('processor', t => {
+  const processor = new Processor({});
+  const res = processor.process(`# Hello`);
+  t.true(res.includes('h1') && res.includes('Hello'))
+})
