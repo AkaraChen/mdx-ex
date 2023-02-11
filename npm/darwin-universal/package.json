@@ -1,0 +1,15 @@
+{
+  "name": "mdx-ex-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "mdx-ex.darwin-universal.node",
+  "files": [
+    "mdx-ex.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mdx-ex-android-arm-eabi",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "mdx-ex.android-arm-eabi.node",
+  "files": [
+    "mdx-ex.android-arm-eabi.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
