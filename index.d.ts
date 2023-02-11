@@ -17,3 +17,7 @@ export interface Opts {
   filepath?: string
 }
 export function compile(mdx: string, userOpts?: Opts | undefined | null): string
+export class Processor {
+  opts: Opts
+  constructor(opts: Opts)
+}

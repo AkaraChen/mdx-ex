@@ -246,7 +246,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { JsxRuntime, compile } = nativeBinding
+const { JsxRuntime, compile, Processor } = nativeBinding
 
 module.exports.JsxRuntime = JsxRuntime
 module.exports.compile = compile
+module.exports.Processor = Processor

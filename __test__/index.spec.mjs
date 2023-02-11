@@ -16,7 +16,7 @@ test('error', t => {
 test('importSource', t => {
   const result = compile(`export default () => <h1>Hello</h1>`, {
     jsxImportSource: 'preact',
-    jsxRuntime: JsxRuntime.Automatic
+    jsxRuntime: JsxRuntime.Automatic,
   });
   t.true(result.includes('preact'));
 });
