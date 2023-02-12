@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "mdx-ex"
+name = "mdxrs-napi"
 version = "0.0.0"
 
 [lib]
