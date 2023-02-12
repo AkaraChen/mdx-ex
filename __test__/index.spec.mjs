@@ -22,7 +22,10 @@ test('importSource', t => {
 });
 
 test('processor', t => {
-  const processor = new Processor({});
+  const processor = new Processor({
+    jsxImportSource: 'preact',
+    jsxRuntime: JsxRuntime.Automatic
+  });
   const res = processor.process(`# Hello`);
-  t.true(res.includes('h1') && res.includes('Hello'))
+  t.true(res.includes('h1') && res.includes('preact'))
 })
