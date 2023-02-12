@@ -59,6 +59,6 @@ pub struct Processor {
 impl Processor {
   #[napi]
   pub fn process(&self, mdx: String) -> Result<String, napi::Error> {
-    return compile(mdx, Some(self.opts.clone()));
+    compile(mdx, Some(self.opts.clone()))
   }
 }
