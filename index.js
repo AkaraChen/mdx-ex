@@ -142,21 +142,6 @@ switch (platform) {
         throw new Error(`Unsupported architecture on macOS: ${arch}`)
     }
     break
-  case 'freebsd':
-    if (arch !== 'x64') {
-      throw new Error(`Unsupported architecture on FreeBSD: ${arch}`)
-    }
-    localFileExisted = existsSync(join(__dirname, 'mdxrs-napi.freebsd-x64.node'))
-    try {
-      if (localFileExisted) {
-        nativeBinding = require('./mdxrs-napi.freebsd-x64.node')
-      } else {
-        nativeBinding = require('mdxrs-napi-freebsd-x64')
-      }
-    } catch (e) {
-      loadError = e
-    }
-    break
   case 'linux':
     switch (arch) {
       case 'x64':
