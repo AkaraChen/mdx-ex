@@ -1226,9 +1226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdx-ex@workspace:.":
+"mdxrs-napi@workspace:.":
   version: 0.0.0-use.local
-  resolution: "mdx-ex@workspace:."
+  resolution: "mdxrs-napi@workspace:."
   dependencies:
     "@napi-rs/cli": ^2.14.7
     "@types/node": ^18.13.0
