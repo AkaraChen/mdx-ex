@@ -1,3 +1,3 @@
-# `mdx-ex-linux-arm64-gnu`
+# `mdxrs-napi-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `mdx-ex`
+This is the **aarch64-unknown-linux-gnu** binary for `mdxrs-napi`

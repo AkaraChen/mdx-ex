@@ -1,3 +1,3 @@
-# `mdx-ex-android-arm64`
+# `mdxrs-napi-android-arm64`
 
-This is the **aarch64-linux-android** binary for `mdx-ex`
+This is the **aarch64-linux-android** binary for `mdxrs-napi`

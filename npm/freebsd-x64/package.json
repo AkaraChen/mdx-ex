@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-freebsd-x64",
+  "name": "mdxrs-napi-freebsd-x64",
   "version": "0.0.0",
   "os": [
     "freebsd"
@@ -7,12 +7,13 @@
   "cpu": [
     "x64"
   ],
-  "main": "mdx-ex.freebsd-x64.node",
+  "main": "mdxrs-napi.freebsd-x64.node",
   "files": [
-    "mdx-ex.freebsd-x64.node"
+    "mdxrs-napi.freebsd-x64.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

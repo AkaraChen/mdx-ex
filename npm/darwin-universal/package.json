@@ -1,15 +1,16 @@
 {
-  "name": "mdx-ex-darwin-universal",
+  "name": "mdxrs-napi-darwin-universal",
   "version": "0.0.0",
   "os": [
     "darwin"
   ],
-  "main": "mdx-ex.darwin-universal.node",
+  "main": "mdxrs-napi.darwin-universal.node",
   "files": [
-    "mdx-ex.darwin-universal.node"
+    "mdxrs-napi.darwin-universal.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

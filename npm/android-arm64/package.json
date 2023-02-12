@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-android-arm64",
+  "name": "mdxrs-napi-android-arm64",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,12 +7,13 @@
   "cpu": [
     "arm64"
   ],
-  "main": "mdx-ex.android-arm64.node",
+  "main": "mdxrs-napi.android-arm64.node",
   "files": [
-    "mdx-ex.android-arm64.node"
+    "mdxrs-napi.android-arm64.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

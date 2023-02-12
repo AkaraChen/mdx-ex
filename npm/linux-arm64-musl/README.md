@@ -1,3 +1,3 @@
-# `mdx-ex-linux-arm64-musl`
+# `mdxrs-napi-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `mdx-ex`
+This is the **aarch64-unknown-linux-musl** binary for `mdxrs-napi`

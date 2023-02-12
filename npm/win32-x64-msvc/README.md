@@ -1,3 +1,3 @@
-# `mdx-ex-win32-x64-msvc`
+# `mdxrs-napi-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `mdx-ex`
+This is the **x86_64-pc-windows-msvc** binary for `mdxrs-napi`

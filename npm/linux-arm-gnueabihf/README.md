@@ -1,3 +1,3 @@
-# `mdx-ex-linux-arm-gnueabihf`
+# `mdxrs-napi-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `mdx-ex`
+This is the **armv7-unknown-linux-gnueabihf** binary for `mdxrs-napi`

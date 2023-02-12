@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-android-arm-eabi",
+  "name": "mdxrs-napi-android-arm-eabi",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,12 +7,13 @@
   "cpu": [
     "arm"
   ],
-  "main": "mdx-ex.android-arm-eabi.node",
+  "main": "mdxrs-napi.android-arm-eabi.node",
   "files": [
-    "mdx-ex.android-arm-eabi.node"
+    "mdxrs-napi.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

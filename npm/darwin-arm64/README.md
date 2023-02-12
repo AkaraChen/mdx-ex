@@ -1,3 +1,3 @@
-# `mdx-ex-darwin-arm64`
+# `mdxrs-napi-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `mdx-ex`
+This is the **aarch64-apple-darwin** binary for `mdxrs-napi`

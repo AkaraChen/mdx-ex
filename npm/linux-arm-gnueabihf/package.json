@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-linux-arm-gnueabihf",
+  "name": "mdxrs-napi-linux-arm-gnueabihf",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,12 +7,13 @@
   "cpu": [
     "arm"
   ],
-  "main": "mdx-ex.linux-arm-gnueabihf.node",
+  "main": "mdxrs-napi.linux-arm-gnueabihf.node",
   "files": [
-    "mdx-ex.linux-arm-gnueabihf.node"
+    "mdxrs-napi.linux-arm-gnueabihf.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

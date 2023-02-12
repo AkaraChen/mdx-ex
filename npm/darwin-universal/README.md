@@ -1,3 +1,3 @@
-# `mdx-ex-darwin-universal`
+# `mdxrs-napi-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `mdx-ex`
+This is the **universal-apple-darwin** binary for `mdxrs-napi`

@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-win32-x64-msvc",
+  "name": "mdxrs-napi-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
@@ -7,12 +7,13 @@
   "cpu": [
     "x64"
   ],
-  "main": "mdx-ex.win32-x64-msvc.node",
+  "main": "mdxrs-napi.win32-x64-msvc.node",
   "files": [
-    "mdx-ex.win32-x64-msvc.node"
+    "mdxrs-napi.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "mdx-ex-darwin-x64",
+  "name": "mdxrs-napi-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -7,12 +7,13 @@
   "cpu": [
     "x64"
   ],
-  "main": "mdx-ex.darwin-x64.node",
+  "main": "mdxrs-napi.darwin-x64.node",
   "files": [
-    "mdx-ex.darwin-x64.node"
+    "mdxrs-napi.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

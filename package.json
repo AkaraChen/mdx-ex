@@ -1,10 +1,10 @@
 {
-  "name": "mdx-ex",
+  "name": "mdxrs-napi",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "mdx-ex",
+    "name": "mdxrs-napi",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -44,5 +44,6 @@
     "version": "napi version",
     "fmt": "prettier ./__test__ --write && cargo fmt"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "repository": "https://github.com/akarachen/mdxrs-napi"
 }

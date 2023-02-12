@@ -1,3 +1,3 @@
-# `mdx-ex-android-arm-eabi`
+# `mdxrs-napi-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `mdx-ex`
+This is the **armv7-linux-androideabi** binary for `mdxrs-napi`
