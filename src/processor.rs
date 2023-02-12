@@ -44,12 +44,12 @@ pub fn compile(mdx: String, user_opts: Option<Opts>) -> Result<String, napi::Err
     Some(v) => v.to_mdxjs_options(),
     None => Default::default(),
   };
-  match mdxjs::compile(mdx.as_str(), &ops) {
+  return match mdxjs::compile(mdx.as_str(), &ops) {
     Ok(v) => {
-      return Ok(v);
+      Ok(v)
     }
     Err(e) => {
-      return Err(napi::Error::new(napi::Status::Unknown, e));
+      Err(napi::Error::new(napi::Status::Unknown, e))
     }
   }
 }
