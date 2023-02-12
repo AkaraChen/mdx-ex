@@ -45,13 +45,9 @@ pub fn compile(mdx: String, user_opts: Option<Opts>) -> Result<String, napi::Err
     None => Default::default(),
   };
   return match mdxjs::compile(mdx.as_str(), &ops) {
-    Ok(v) => {
-      Ok(v)
-    }
-    Err(e) => {
-      Err(napi::Error::new(napi::Status::Unknown, e))
-    }
-  }
+    Ok(v) => Ok(v),
+    Err(e) => Err(napi::Error::new(napi::Status::Unknown, e)),
+  };
 }
 
 #[napi(constructor)]
