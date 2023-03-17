@@ -7,7 +7,7 @@ version = "0.0.0"
 crate-type = ["cdylib"]
 
 [dependencies]
-mdxjs = "0.1.7"
+mdxjs = "0.1.8"
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
 napi = { version = "2.11.1", default-features = false, features = ["napi4"] }
 napi-derive = "2.11.2"
