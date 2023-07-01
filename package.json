@@ -43,7 +43,7 @@
     "version": "napi version",
     "fmt": "prettier ./__test__ --write && cargo fmt"
   },
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@3.6.1",
   "repository": "https://github.com/akarachen/mdxrs-napi",
   "publishConfig": {
     "@akarachen:registry": "https://npm.pkg.github.com"
